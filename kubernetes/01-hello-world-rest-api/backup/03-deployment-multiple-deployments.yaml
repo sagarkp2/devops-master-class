@@ -79,6 +79,6 @@ spec:
     targetPort: 8080
   selector:
     app: hello-world-rest-api
-    version: v2
+    version: v2 #send request to a specific release version
   sessionAffinity: None
   type: LoadBalancer

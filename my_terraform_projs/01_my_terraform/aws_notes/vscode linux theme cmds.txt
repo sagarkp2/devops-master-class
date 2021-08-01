@@ -1,0 +1,143 @@
+bira.zsh-theme           garyblessington.zsh-theme  mikeh.zsh-theme                 sporty_256.zsh-theme
+blinks.zsh-theme         gentoo.zsh-theme           miloshadzic.zsh-theme           steeef.zsh-theme
+bureau.zsh-theme         geoffgarside.zsh-theme     minimal.zsh-theme               strug.zsh-theme
+candy-kingdom.zsh-theme  gianu.zsh-theme            mira.zsh-theme                  sunaku.zsh-theme
+candy.zsh-theme          gnzh.zsh-theme             mlh.zsh-theme                   sunrise.zsh-theme
+clean.zsh-theme          gozilla.zsh-theme          mortalscumbag.zsh-theme         superjarin.zsh-theme
+cloud.zsh-theme          half-life.zsh-theme        mrtazz.zsh-theme                suvash.zsh-theme
+crcandy.zsh-theme        humza.zsh-theme            murilasso.zsh-theme             takashiyoshida.zsh-theme
+crunch.zsh-theme         imajes.zsh-theme           muse.zsh-theme                  terminalparty.zsh-theme
+cypher.zsh-theme         intheloop.zsh-theme        nanotech.zsh-theme              theunraveler.zsh-theme
+dallas.zsh-theme         itchy.zsh-theme            nebirhos.zsh-theme              tjkirch_mod.zsh-theme
+darkblood.zsh-theme      jaischeema.zsh-theme       nicoulaj.zsh-theme              tjkirch.zsh-theme
+daveverwer.zsh-theme     jbergantine.zsh-theme      norm.zsh-theme                  tonotdo.zsh-theme
+dieter.zsh-theme         jispwoso.zsh-theme         obraun.zsh-theme                trapd00r.zsh-theme
+dogenpunk.zsh-theme      jnrowe.zsh-theme           peepcode.zsh-theme              wedisagree.zsh-theme
+dpoggi.zsh-theme         jonathan.zsh-theme         philips.zsh-theme               wezm.zsh-theme
+dstufft.zsh-theme        josh.zsh-theme             pmcgee.zsh-theme                wezm+.zsh-theme
+dst.zsh-theme            jreese.zsh-theme           pygmalion-virtualenv.zsh-theme  wuffers.zsh-theme
+duellj.zsh-theme         jtriley.zsh-theme          pygmalion.zsh-theme             xiong-chiamiov-plus.zsh-theme
+eastwood.zsh-theme       juanghurtado.zsh-theme     random.zsh-theme                xiong-chiamiov.zsh-theme
+edvardm.zsh-theme        junkfood.zsh-theme         re5et.zsh-theme                 ys.zsh-theme
+emotty.zsh-theme         kafeitu.zsh-theme          refined.zsh-theme               zhann.zsh-theme
+essembeh.zsh-theme       kardan.zsh-theme           rgm.zsh-theme
+evan.zsh-theme           kennethreitz.zsh-theme     risto.zsh-theme
+➜  themes git:(master) cd..
+➜  .oh-my-zsh git:(master) cd..
+➜  ~ /.zshrc
+zsh: no such file or directory: /.zshrc
+➜  ~ clear
+➜  ~  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+The $ZSH folder already exists (/home/susedocker/.oh-my-zsh).
+
+You ran the installer with the $ZSH setting or the $ZSH variable is
+exported. You have 3 options:
+
+1. Unset the ZSH variable when calling the installer:
+   `ZSH= sh install.sh`
+2. Install Oh My Zsh to a directory that doesn't exist yet:
+   `ZSH=path/to/new/ohmyzsh/folder sh install.sh`
+3. (Caution) If the folder doesn't contain important information,
+   you can just remove it with `rm -r /home/susedocker/.oh-my-zsh`
+
+➜  ~ locate filename
+
+The program 'locate' can be found in the following package:
+  * mlocate [ path: /usr/bin/locate, repository: zypp (repo-oss) ]
+
+Try installing with:
+    sudo zypper install mlocate
+
+➜  ~ locate .zshrc
+
+The program 'locate' can be found in the following package:
+  * mlocate [ path: /usr/bin/locate, repository: zypp (repo-oss) ]
+
+Try installing with:
+    sudo zypper install mlocate
+
+➜  ~ touch ~/.zshrc
+➜  ~ ~/.zshrc
+zsh: permission denied: /home/susedocker/.zshrc
+➜  ~ /.zshrc
+zsh: no such file or directory: /.zshrc
+➜  ~ touch ~/.zshrc
+➜  ~ touch /.zshrc
+touch: cannot touch '/.zshrc': Permission denied
+➜  ~ /.zshrc
+zsh: no such file or directory: /.zshrc
+➜  ~ ZSH_THEME="powerlevel9k/powerlevel9k"
+➜  ~ code
+➜  ~ cd .oh-my-zsh
+➜  .oh-my-zsh git:(master) code
+➜  .oh-my-zsh git:(master) code ~/.zshrc
+➜  .oh-my-zsh git:(master) code ~/.zshrc
+➜  .oh-my-zsh git:(master) ls
+cache               CONTRIBUTING.md  lib          log           plugins    templates  tools
+CODE_OF_CONDUCT.md  custom           LICENSE.txt  oh-my-zsh.sh  README.md  themes
+➜  .oh-my-zsh git:(master) code ~/.zshrc
+➜  .oh-my-zsh git:(master) code ~/.zshrc
+➜  .oh-my-zsh git:(master) cd..
+➜  ~ git clone https://github.com/powerline/fonts.git --depth=1
+Cloning into 'fonts'...
+remote: Enumerating objects: 310, done.
+remote: Counting objects: 100% (310/310), done.
+remote: Compressing objects: 100% (236/236), done.
+remote: Total 310 (delta 75), reused 260 (delta 71), pack-reused 0
+Receiving objects: 100% (310/310), 10.40 MiB | 1014.00 KiB/s, done.
+Resolving deltas: 100% (75/75), done.
+➜  ~ cd fonts
+➜  fonts git:(master) ./install.sh
+Copying fonts...
+Powerline fonts installed to /home/susedocker/.local/share/fonts
+➜  fonts git:(master) cd,,
+ cd,,: command not found
+➜  fonts git:(master) cd..
+➜  ~ ls
+bin  fonts
+➜  ~ cd .oh-my-zsh
+➜  .oh-my-zsh git:(master) ls
+cache               CONTRIBUTING.md  lib          log           plugins    templates  tools
+CODE_OF_CONDUCT.md  custom           LICENSE.txt  oh-my-zsh.sh  README.md  themes
+➜  .oh-my-zsh git:(master) cd..
+➜  ~ cd .oh-my-zsh
+➜  .oh-my-zsh git:(master) cd themes
+➜  themes git:(master) ls
+3den.zsh-theme           fino-time.zsh-theme        kiwi.zsh-theme                  rixius.zsh-theme
+adben.zsh-theme          fino.zsh-theme             kolo.zsh-theme                  rkj-repos.zsh-theme
+af-magic.zsh-theme       fishy.zsh-theme            kphoen.zsh-theme                rkj.zsh-theme
+afowler.zsh-theme        flazz.zsh-theme            lambda.zsh-theme                robbyrussell.zsh-theme
+agnoster.zsh-theme       fletcherm.zsh-theme        linuxonly.zsh-theme             sammy.zsh-theme
+alanpeabody.zsh-theme    fox.zsh-theme              lukerandall.zsh-theme           simonoff.zsh-theme
+amuse.zsh-theme          frisk.zsh-theme            macovsky-ruby.zsh-theme         simple.zsh-theme
+apple.zsh-theme          frontcube.zsh-theme        macovsky.zsh-theme              skaro.zsh-theme
+arrow.zsh-theme          funky.zsh-theme            maran.zsh-theme                 smt.zsh-theme
+aussiegeek.zsh-theme     fwalch.zsh-theme           mgutz.zsh-theme                 Soliah.zsh-theme
+avit.zsh-theme           gallifrey.zsh-theme        mh.zsh-theme                    sonicradish.zsh-theme
+awesomepanda.zsh-theme   gallois.zsh-theme          michelebologna.zsh-theme        sorin.zsh-theme
+bira.zsh-theme           garyblessington.zsh-theme  mikeh.zsh-theme                 sporty_256.zsh-theme
+blinks.zsh-theme         gentoo.zsh-theme           miloshadzic.zsh-theme           steeef.zsh-theme
+bureau.zsh-theme         geoffgarside.zsh-theme     minimal.zsh-theme               strug.zsh-theme
+candy-kingdom.zsh-theme  gianu.zsh-theme            mira.zsh-theme                  sunaku.zsh-theme
+candy.zsh-theme          gnzh.zsh-theme             mlh.zsh-theme                   sunrise.zsh-theme
+clean.zsh-theme          gozilla.zsh-theme          mortalscumbag.zsh-theme         superjarin.zsh-theme
+cloud.zsh-theme          half-life.zsh-theme        mrtazz.zsh-theme                suvash.zsh-theme
+crcandy.zsh-theme        humza.zsh-theme            murilasso.zsh-theme             takashiyoshida.zsh-theme
+crunch.zsh-theme         imajes.zsh-theme           muse.zsh-theme                  terminalparty.zsh-theme
+cypher.zsh-theme         intheloop.zsh-theme        nanotech.zsh-theme              theunraveler.zsh-theme
+dallas.zsh-theme         itchy.zsh-theme            nebirhos.zsh-theme              tjkirch_mod.zsh-theme
+darkblood.zsh-theme      jaischeema.zsh-theme       nicoulaj.zsh-theme              tjkirch.zsh-theme
+daveverwer.zsh-theme     jbergantine.zsh-theme      norm.zsh-theme                  tonotdo.zsh-theme
+dieter.zsh-theme         jispwoso.zsh-theme         obraun.zsh-theme                trapd00r.zsh-theme
+dogenpunk.zsh-theme      jnrowe.zsh-theme           peepcode.zsh-theme              wedisagree.zsh-theme
+dpoggi.zsh-theme         jonathan.zsh-theme         philips.zsh-theme               wezm.zsh-theme
+dstufft.zsh-theme        josh.zsh-theme             pmcgee.zsh-theme                wezm+.zsh-theme
+dst.zsh-theme            jreese.zsh-theme           pygmalion-virtualenv.zsh-theme  wuffers.zsh-theme
+duellj.zsh-theme         jtriley.zsh-theme          pygmalion.zsh-theme             xiong-chiamiov-plus.zsh-theme
+eastwood.zsh-theme       juanghurtado.zsh-theme     random.zsh-theme                xiong-chiamiov.zsh-theme
+edvardm.zsh-theme        junkfood.zsh-theme         re5et.zsh-theme                 ys.zsh-theme
+emotty.zsh-theme         kafeitu.zsh-theme          refined.zsh-theme               zhann.zsh-theme
+essembeh.zsh-theme       kardan.zsh-theme           rgm.zsh-theme
+evan.zsh-theme           kennethreitz.zsh-theme     risto.zsh-theme
+➜  themes git:(master)
+

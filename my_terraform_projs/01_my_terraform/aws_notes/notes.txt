@@ -1,0 +1,4 @@
+us east 1 North Viginia
+Amazon machine image -ami-0ab4d1e9cf9a1215a (64-bit x86)
+Instance Type - t2.micro
+VPC - vpc-41d3b63c
