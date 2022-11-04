@@ -150,3 +150,9 @@ docker push in28min/hello-world-nodejs:0.0.1.RELEASE
 
 >The host networking driver only works on Linux hosts, and is not supported on Docker Desktop for Mac, Docker Desktop for Windows, or Docker EE for Windows Server.
 
+## Docker push to Nexus Artifact repo
+docker pull alpine
+docker images
+docker tag alpine:latest localhost:8083/alpine:latest
+docker images
+docker push localhost:8083/alpine:latest
